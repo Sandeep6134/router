@@ -1,0 +1,14 @@
+.card-container {
+    background-color: rgb(136, 184, 64);
+    border-radius: 10px;
+    height: 70vh;
+    width: 20vw;
+    padding: 1em;
+    margin:2em;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
